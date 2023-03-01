@@ -1,0 +1,92 @@
+export default [
+  {
+    id: 1,
+    title: "Home",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios/50/null/home-page.png",
+  },
+  {
+    id: 2,
+    title: "MyBids",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios/50/null/law.png",
+  },
+  {
+    id: 3,
+    title: "MPIN",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios/50/null/lock--v1.png",
+  },
+  {
+    id: 4,
+    title: "Passbook",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios/50/null/cashbook.png",
+  },
+  {
+    id: 5,
+    title: "Chat",
+    navigation: "Home",
+    icon: "https://img.icons8.com/material-outlined/24/null/filled-chat.png",
+  },
+  {
+    id: 6,
+    title: "Funds",
+    navigation: "Home",
+    icon: "https://img.icons8.com/external-smashingstocks-thin-outline-smashing-stocks/67/null/external-Funds-healthcare-smashingstocks-thin-outline-smashing-stocks.png",
+  },
+  {
+    id: 7,
+    title: "Notifications",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios/50/null/alarm--v1.png",
+  },
+  {
+    id: 8,
+    title: "Videos",
+    navigation: "Home",
+    icon: "https://img.icons8.com/external-those-icons-lineal-those-icons/48/null/external-play-button-music-audio-those-icons-lineal-those-icons.png",
+  },
+  {
+    id: 9,
+    title: "Notice Boards",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios/50/null/error--v1.png",
+  },
+  {
+    id: 10,
+    title: "Game Rates",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios/50/null/sparkling.png",
+  },
+  {
+    id: 11,
+    title: "Charts",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios-filled/50/null/combo-chart--v1.png",
+  },
+  {
+    id: 12,
+    title: "Submit Ideas",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios/50/null/light-on--v1.png",
+  },
+  {
+    id: 13,
+    title: "Settings",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios/50/null/apple-settings.png",
+  },
+  {
+    id: 14,
+    title: "Share Application",
+    navigation: "Home",
+    icon: "https://img.icons8.com/ios-glyphs/60/null/share-rounded.png",
+  },
+  {
+    id: 15,
+    title: "Logout",
+    navigation: "Home",
+    icon: "https://img.icons8.com/dotty/80/null/logout-rounded.png",
+  },
+];

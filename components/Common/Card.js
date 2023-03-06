@@ -12,9 +12,11 @@ const Card = ({
   btnTitle,
   statusColor,
   btnImage,
+  onPress,
+  key,
 }) => {
   return (
-    <View style={styles.container}>
+    <Pressable style={styles.container} onPress={onPress} key={key}>
       <View>
         <View style={styles.innerBox}>
           <Text style={styles.title}>{title}</Text>
@@ -33,7 +35,7 @@ const Card = ({
       <View style={styles.btn}>
         <Feather name="chevrons-right" size={50} color={"#FFDB58"} />
       </View>
-    </View>
+    </Pressable>
   );
 };
 

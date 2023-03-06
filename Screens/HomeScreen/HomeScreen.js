@@ -1,4 +1,11 @@
-import { Image, ImageBackground, StyleSheet, Text, View } from "react-native";
+import {
+  Image,
+  ImageBackground,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 import React from "react";
 import { styles } from "./styles";
 import Games from "../../components/_homeScreen/Games";
@@ -6,7 +13,7 @@ import { Button } from "react-native-paper";
 import { COLOR } from "../../assets/colors";
 const HomeScreen = () => {
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <View style={styles.imageView}>
         <Image
           source={require("../../assets/resource/cards_and_dice.png")}
@@ -34,7 +41,7 @@ const HomeScreen = () => {
         </Button>
       </View>
 
-      <View style={style.imageView}>
+      <View style={styles.imageView}>
         <Image
           source={require("../../assets/resource/back_ace.png")}
           style={styles.images}
@@ -44,7 +51,7 @@ const HomeScreen = () => {
         <Games />
       </View>
       {/* <Text style={styles.text}>Home Screen</Text> */}
-    </View>
+    </ScrollView>
   );
 };
 

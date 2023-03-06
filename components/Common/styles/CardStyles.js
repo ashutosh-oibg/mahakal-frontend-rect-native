@@ -1,25 +1,23 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, useWindowDimensions } from "react-native";
 import { COLOR } from "../../../assets/colors";
 import { SIZE } from "../../../assets/Sizes";
 
 export const styles = StyleSheet.create({
   container: {
-    width: 370,
+    width: "100%",
     height: 90,
     backgroundColor: COLOR.white,
     flexDirection: "row",
-    marginHorizontal: 5,
-    marginVertical: 5,
     borderTopRightRadius: 200,
     borderBottomLeftRadius: 200,
+    marginVertical: 5,
     justifyContent: "center",
     alignItems: "center",
+    paddingHorizontal: 10,
   },
-
   innerBox: {
     flexDirection: "row",
   },
-
   statandTime: {
     flex: 1,
     flexDirection: "column",
@@ -55,7 +53,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
 
-  btn: {},
+  btn: { marginLeft: 40 },
   btnImage: {
     width: 20,
     height: 20,

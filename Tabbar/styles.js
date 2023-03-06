@@ -7,7 +7,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: COLOR.mustard,
     borderRadius: 50,
   },
   tabBar: {

@@ -2,12 +2,14 @@ import { FlatList, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import Card from "../Common/Card";
 import HomeScreenData from "../Utils/HomeScreenData";
-import { COLOR } from "../../assets/colors";
+import { useNavigation } from "@react-navigation/native";
 
 const Games = () => {
+  const navigation = useNavigation();
   const Items = ({ item, index }) => {
     return (
       <Card
+        key={index}
         title={item.gameName}
         timeOpen={item.openBid}
         timeClose={item.closBid}
@@ -15,6 +17,7 @@ const Games = () => {
         btnTitle={item.btnTitle}
         statusColor={item.status === "Running Now" ? "#82CD47" : "#82CD47"}
         btnImage={"play-circle"}
+        onPress={() => navigation.navigate("Games", { name: item.gameName })}
       />
     );
   };

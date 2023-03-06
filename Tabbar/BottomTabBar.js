@@ -117,7 +117,6 @@ export default function TabBar() {
     <Tab.Navigator
       screenOptions={{
         headerShown: false,
-        tabBarStyle: { backgroundColor: COLOR.mustard },
       }}
     >
       {TabArr.map((item, index) => {
